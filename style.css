@@ -107,7 +107,15 @@ h3, h4{
     top: -.5em;
 }
 
+@media (orientation: landscape) {
+    body{
+        margin-left: 30%;
+        margin-right: 30%;
 
+        font-size: 2vw;
 
-
-
+    }
+    #submitBtn{
+        width: 40%;
+    }
+}
