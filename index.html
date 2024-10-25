@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+
+    <title>TipCalculator</title>
+</head>
+<body>
+    
+
+    <titleT> Tip Calculator </titleT>
+
+    <!-- *  Interactive Input Area is a form in a grid -->
+    <form id="inputForm" class="form" autocomplete="off">
+
+        <!-- "Bill Amount" - Label And Input Field -->
+        <label for="billV_">Bill amount: </label>
+        <input type="billV_" id="billV" />
+
+
+        <!-- "Tip Amount" - Label And Option Box -->
+        <label for="tipV_">Tip Amount:</label>
+        <select name="tipV_" id="tipV">
+          <option value="5">5%</option>
+          <option value="10">10%</option>
+          <option value="15">15%</option>
+          <option value="20">20%</option>
+
+          <!-- Custom option when selected will reveal custom input box  -->
+          <option value="Custom">Custom</option>            
+        </select>
+
+        <!-- Custom input box -->
+        <input type="tipVCustom_" id="tipVCustom" />
+  
+        <!-- generate results button -->
+        <button id="submitBtn"> Find Tip </button>
+      </form>
+    
+
+
+      <!-- generate results area -->
+      <h3 id="result">result</h3>
+      <!-- <h4 > data </h4> -->
+
+
+
+      
+
+
+        <!-- <input type="submit" id="submitBtn" value="Tip" /> -->
+    
+
+</body>
+</html>
